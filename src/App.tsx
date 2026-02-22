@@ -94,7 +94,7 @@ function Toggle() {
               <li><a href="#contacte">Nous contacter</a></li>
             </ul>
           </div>
-          <div className="flex gap-2 justify-center items-center text-black">
+          <div className="flex gap-2 justify-center items-center text-black font-secondary">
             <span>Mode sombre</span>
             <Toggle/>
           </div>
