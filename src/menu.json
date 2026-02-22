@@ -1,0 +1,122 @@
+{
+  "NutriFlowMenu": {
+    "Lundi": {
+      "PetitDej": [
+        {"id": 1, "nom": "Smoothie banane & avoine", "calories": 250, "description": "Un smoothie crémeux à la banane avec des flocons d’avoine pour un démarrage énergétique.", "imageUrl": "https://example.com/images/smoothie_banane.jpg"},
+        {"id": 2, "nom": "Omelette aux légumes", "calories": 200, "description": "Omelette légère aux poivrons et épinards, riche en protéines.", "imageUrl": "https://example.com/images/omelette_legumes.jpg"},
+        {"id": 3, "nom": "Yaourt grec + fruits rouges", "calories": 180, "description": "Yaourt crémeux accompagné de fraises et framboises fraîches.", "imageUrl": "https://example.com/images/yaourt_fruits.jpg"}
+      ],
+      "Dejeuner": [
+        {"id": 4, "nom": "Poulet grillé + quinoa + brocolis", "calories": 450, "description": "Poulet tendre grillé, servi avec du quinoa et des brocolis croquants.", "imageUrl": "https://example.com/images/poulet_quinoa.jpg"},
+        {"id": 5, "nom": "Saumon au four + riz complet + épinards", "calories": 480, "description": "Filet de saumon cuit au four avec riz complet et épinards frais.", "imageUrl": "https://example.com/images/saumon_riz.jpg"},
+        {"id": 6, "nom": "Wrap végétarien (houmous, légumes, avocat)", "calories": 400, "description": "Wrap savoureux rempli de houmous, légumes croquants et avocat.", "imageUrl": "https://example.com/images/wrap_vegetarien.jpg"}
+      ],
+      "Diner": [
+        {"id": 7, "nom": "Soupe de lentilles + pain complet", "calories": 350, "description": "Soupe chaude de lentilles rouges, accompagnée de pain complet croustillant.", "imageUrl": "https://example.com/images/soupe_lentilles.jpg"},
+        {"id": 8, "nom": "Salade poulet & légumes grillés", "calories": 400, "description": "Salade colorée avec poulet grillé, poivrons et courgettes.", "imageUrl": "https://example.com/images/salade_poulet.jpg"},
+        {"id": 9, "nom": "Pâtes complètes aux légumes", "calories": 420, "description": "Pâtes complètes accompagnées de légumes de saison sautés.", "imageUrl": "https://example.com/images/pates_legumes.jpg"}
+      ]
+    },
+    "Mardi": {
+      "PetitDej": [
+        {"id": 10, "nom": "Pancakes à l’avoine + sirop d’érable", "calories": 300, "description": "Pancakes moelleux à l’avoine nappés d’un filet de sirop d’érable.", "imageUrl": "https://example.com/images/pancakes_avoine.jpg"},
+        {"id": 11, "nom": "Smoothie fraise & lait d’amande", "calories": 220, "description": "Smoothie frais aux fraises avec lait d’amande, riche en vitamines.", "imageUrl": "https://example.com/images/smoothie_fraise.jpg"},
+        {"id": 12, "nom": "Bol de muesli aux fruits secs", "calories": 250, "description": "Muesli croquant aux fruits secs pour un petit-déj rapide et nourrissant.", "imageUrl": "https://example.com/images/muesli_fruits.jpg"}
+      ],
+      "Dejeuner": [
+        {"id": 13, "nom": "Steak de bœuf + patates douces + haricots verts", "calories": 500, "description": "Steak grillé, accompagné de patates douces rôties et haricots verts.", "imageUrl": "https://example.com/images/steak_patates.jpg"},
+        {"id": 14, "nom": "Filet de poulet grillé + riz basmati + brocolis", "calories": 460, "description": "Filet de poulet tendre avec riz basmati parfumé et brocolis vapeur.", "imageUrl": "https://example.com/images/poulet_riz.jpg"},
+        {"id": 15, "nom": "Salade quinoa, pois chiches et légumes", "calories": 420, "description": "Salade riche en fibres avec quinoa, pois chiches et légumes frais.", "imageUrl": "https://example.com/images/salade_quinoa.jpg"}
+      ],
+      "Diner": [
+        {"id": 16, "nom": "Soupe de tomates + toast à l’avocat", "calories": 320, "description": "Soupe de tomates maison, servie avec un toast à l’avocat crémeux.", "imageUrl": "https://example.com/images/soupe_tomates.jpg"},
+        {"id": 17, "nom": "Poisson vapeur + légumes", "calories": 380, "description": "Poisson léger cuit à la vapeur accompagné de légumes croquants.", "imageUrl": "https://example.com/images/poisson_legumes.jpg"},
+        {"id": 18, "nom": "Omelette aux champignons", "calories": 300, "description": "Omelette moelleuse aux champignons sautés.", "imageUrl": "https://example.com/images/omelette_champignons.jpg"}
+      ]
+    },
+    "Mercredi": {
+      "PetitDej": [
+        {"id": 19, "nom": "Smoothie mangue & yaourt", "calories": 250, "description": "Smoothie tropical à la mangue mélangé à du yaourt crémeux.", "imageUrl": "https://example.com/images/smoothie_mangue.jpg"},
+        {"id": 20, "nom": "Omelette au fromage + tomates", "calories": 220, "description": "Omelette légère avec fromage fondu et tomates fraîches.", "imageUrl": "https://example.com/images/omelette_fromage.jpg"},
+        {"id": 21, "nom": "Bol de flocons d’avoine + fruits", "calories": 230, "description": "Flocons d’avoine chauds avec morceaux de fruits frais.", "imageUrl": "https://example.com/images/avoine_fruits.jpg"}
+      ],
+      "Dejeuner": [
+        {"id": 22, "nom": "Poulet au curry + riz complet", "calories": 480, "description": "Poulet tendre mijoté dans une sauce curry douce, servi avec riz complet.", "imageUrl": "https://example.com/images/poulet_curry.jpg"},
+        {"id": 23, "nom": "Saumon grillé + légumes vapeur", "calories": 450, "description": "Saumon grillé accompagné de légumes vapeur croquants.", "imageUrl": "https://example.com/images/saumon_legumes.jpg"},
+        {"id": 24, "nom": "Wrap au poulet + légumes frais", "calories": 420, "description": "Wrap savoureux au poulet grillé et légumes frais.", "imageUrl": "https://example.com/images/wrap_poulet.jpg"}
+      ],
+      "Diner": [
+        {"id": 25, "nom": "Soupe de légumes", "calories": 330, "description": "Soupe maison de légumes variés, légère et nutritive.", "imageUrl": "https://example.com/images/soupe_legumes.jpg"},
+        {"id": 26, "nom": "Salade de lentilles + légumes", "calories": 360, "description": "Salade saine avec lentilles cuites et légumes croquants.", "imageUrl": "https://example.com/images/salade_lentilles.jpg"},
+        {"id": 27, "nom": "Pâtes complètes au pesto", "calories": 400, "description": "Pâtes complètes servies avec une sauce pesto maison.", "imageUrl": "https://example.com/images/pates_pesto.jpg"}
+      ]
+    },
+    "Jeudi": {
+      "PetitDej": [
+        {"id": 28, "nom": "Pancakes banane", "calories": 280, "description": "Pancakes moelleux à la banane, parfait pour bien démarrer la journée.", "imageUrl": "https://example.com/images/pancakes_banane.jpg"},
+        {"id": 29, "nom": "Smoothie kiwi & épinards", "calories": 200, "description": "Smoothie vert frais et vitaminé à base de kiwi et épinards.", "imageUrl": "https://example.com/images/smoothie_kiwi.jpg"},
+        {"id": 30, "nom": "Yaourt nature + granola", "calories": 220, "description": "Yaourt nature accompagné d’un granola croquant et fruits secs.", "imageUrl": "https://example.com/images/yaourt_granola.jpg"}
+      ],
+      "Dejeuner": [
+        {"id": 31, "nom": "Steak de dinde + quinoa + légumes grillés", "calories": 450, "description": "Steak de dinde tendre avec quinoa et légumes grillés.", "imageUrl": "https://example.com/images/steak_dinde.jpg"},
+        {"id": 32, "nom": "Saumon au four + riz complet", "calories": 470, "description": "Saumon cuit au four accompagné de riz complet parfumé.", "imageUrl": "https://example.com/images/saumon_four.jpg"},
+        {"id": 33, "nom": "Salade de pois chiches + légumes", "calories": 400, "description": "Salade rafraîchissante avec pois chiches et légumes de saison.", "imageUrl": "https://example.com/images/salade_pois_chiches.jpg"}
+      ],
+      "Diner": [
+        {"id": 34, "nom": "Soupe de lentilles corail", "calories": 340, "description": "Soupe épicée aux lentilles corail, réconfortante et nourrissante.", "imageUrl": "https://example.com/images/soupe_lentilles_corail.jpg"},
+        {"id": 35, "nom": "Omelette aux légumes", "calories": 310, "description": "Omelette moelleuse garnie de légumes frais.", "imageUrl": "https://example.com/images/omelette_legumes_jeudi.jpg"},
+        {"id": 36, "nom": "Pâtes complètes aux légumes grillés", "calories": 420, "description": "Pâtes complètes servies avec légumes de saison grillés.", "imageUrl": "https://example.com/images/pates_legumes_jeudi.jpg"}
+      ]
+    },
+    "Vendredi": {
+      "PetitDej": [
+        {"id": 37, "nom": "Smoothie fruits rouges", "calories": 230, "description": "Smoothie riche en antioxydants aux fruits rouges.", "imageUrl": "https://example.com/images/smoothie_fruits_rouges.jpg"},
+        {"id": 38, "nom": "Bol de muesli + lait", "calories": 250, "description": "Muesli nutritif servi avec lait frais.", "imageUrl": "https://example.com/images/muesli_lait.jpg"},
+        {"id": 39, "nom": "Omelette aux champignons", "calories": 200, "description": "Omelette légère avec champignons sautés.", "imageUrl": "https://example.com/images/omelette_champignons_vendredi.jpg"}
+      ],
+      "Dejeuner": [
+        {"id": 40, "nom": "Poulet rôti + riz + brocolis", "calories": 450, "description": "Poulet rôti tendre avec riz et brocolis vapeur.", "imageUrl": "https://example.com/images/poulet_roti.jpg"},
+        {"id": 41, "nom": "Saumon grillé + quinoa + légumes vapeur", "calories": 480, "description": "Saumon grillé accompagné de quinoa et légumes croquants.", "imageUrl": "https://example.com/images/saumon_quinoa.jpg"},
+        {"id": 42, "nom": "Wrap végétarien", "calories": 400, "description": "Wrap frais rempli de légumes et houmous crémeux.", "imageUrl": "https://example.com/images/wrap_vegetarien_vendredi.jpg"}
+      ],
+      "Diner": [
+        {"id": 43, "nom": "Soupe de légumes", "calories": 320, "description": "Soupe maison variée et réconfortante.", "imageUrl": "https://example.com/images/soupe_legumes_vendredi.jpg"},
+        {"id": 44, "nom": "Salade poulet grillé + légumes", "calories": 400, "description": "Salade colorée avec poulet grillé et légumes frais.", "imageUrl": "https://example.com/images/salade_poulet_vendredi.jpg"},
+        {"id": 45, "nom": "Pâtes complètes sauce tomate", "calories": 410, "description": "Pâtes complètes avec sauce tomate maison riche en saveurs.", "imageUrl": "https://example.com/images/pates_tomate.jpg"}
+      ]
+    },
+    "Samedi": {
+      "PetitDej": [
+        {"id": 46, "nom": "Pancakes aux myrtilles", "calories": 300, "description": "Pancakes moelleux garnis de myrtilles fraîches.", "imageUrl": "https://example.com/images/pancakes_myrtilles.jpg"},
+        {"id": 47, "nom": "Smoothie banane & lait d’amande", "calories": 220, "description": "Smoothie doux à la banane avec lait d’amande.", "imageUrl": "https://example.com/images/smoothie_banane_lait.jpg"},
+        {"id": 48, "nom": "Bol de flocons d’avoine + fruits secs", "calories": 250, "description": "Flocons d’avoine chauds avec fruits secs croquants.", "imageUrl": "https://example.com/images/avoine_fruits_secs.jpg"}
+      ],
+      "Dejeuner": [
+        {"id": 49, "nom": "Steak de bœuf + patates douces", "calories": 500, "description": "Steak juteux avec patates douces rôties.", "imageUrl": "https://example.com/images/steak_patates_samedi.jpg"},
+        {"id": 50, "nom": "Filet de poulet + riz basmati + légumes", "calories": 460, "description": "Poulet tendre avec riz basmati et légumes vapeur.", "imageUrl": "https://example.com/images/poulet_riz_samedi.jpg"},
+        {"id": 51, "nom": "Salade quinoa + légumes", "calories": 420, "description": "Salade légère avec quinoa et légumes croquants.", "imageUrl": "https://example.com/images/salade_quinoa_samedi.jpg"}
+      ],
+      "Diner": [
+        {"id": 52, "nom": "Soupe de tomates", "calories": 320, "description": "Soupe maison de tomates fraîches.", "imageUrl": "https://example.com/images/soupe_tomates_samedi.jpg"},
+        {"id": 53, "nom": "Poisson vapeur + légumes", "calories": 380, "description": "Poisson léger cuit à la vapeur avec légumes variés.", "imageUrl": "https://example.com/images/poisson_legumes_samedi.jpg"},
+        {"id": 54, "nom": "Omelette aux légumes", "calories": 310, "description": "Omelette moelleuse garnie de légumes frais.", "imageUrl": "https://example.com/images/omelette_legumes_samedi.jpg"}
+      ]
+    },
+    "Dimanche": {
+      "PetitDej": [
+        {"id": 55, "nom": "Smoothie mangue & yaourt", "calories": 250, "description": "Smoothie tropical et crémeux à la mangue.", "imageUrl": "https://example.com/images/smoothie_mangue_dimanche.jpg"},
+        {"id": 56, "nom": "Omelette aux légumes", "calories": 220, "description": "Omelette légère avec légumes de saison.", "imageUrl": "https://example.com/images/omelette_legumes_dimanche.jpg"},
+        {"id": 57, "nom": "Bol de muesli + fruits", "calories": 240, "description": "Muesli aux fruits pour un petit-déj rapide et nourrissant.", "imageUrl": "https://example.com/images/muesli_fruits_dimanche.jpg"}
+      ],
+      "Dejeuner": [
+        {"id": 58, "nom": "Poulet au curry + riz", "calories": 480, "description": "Poulet tendre mijoté dans une sauce curry douce, servi avec riz.", "imageUrl": "https://example.com/images/poulet_curry_dimanche.jpg"},
+        {"id": 59, "nom": "Saumon grillé + légumes vapeur", "calories": 450, "description": "Saumon grillé accompagné de légumes croquants.", "imageUrl": "https://example.com/images/saumon_legumes_dimanche.jpg"},
+        {"id": 60, "nom": "Wrap au poulet + légumes frais", "calories": 420, "description": "Wrap frais avec poulet grillé et légumes croquants.", "imageUrl": "https://example.com/images/wrap_poulet_dimanche.jpg"}
+      ],
+      "Diner": [
+        {"id": 61, "nom": "Soupe de légumes variés", "calories": 330, "description": "Soupe maison avec légumes de saison, légère et nourrissante.", "imageUrl": "https://example.com/images/soupe_legumes_dimanche.jpg"},
+        {"id": 62, "nom": "Salade poulet grillé + légumes", "calories": 400, "description": "Salade fraîche avec poulet grillé, poivrons et courgettes.", "imageUrl": "https://example.com/images/salade_poulet_dimanche.jpg"},
+        {"id": 63, "nom": "Pâtes complètes aux légumes sautés", "calories": 420, "description": "Pâtes complètes accompagnées de légumes de saison sautés.", "imageUrl": "https://example.com/images/pates_legumes_dimanche.jpg"}
+      ]
+    }}
+}
