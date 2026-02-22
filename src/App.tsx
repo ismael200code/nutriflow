@@ -103,8 +103,8 @@ function Toggle() {
 
       <main className="w-full overflow-x-hidden">
 
-        <section className="w-full p-5 scroll-mt-24" id="accueil">
-          <h1 className="font-primary text-2xl lg:text-3xl md:text-3xl">La nutrition intelligente pour les gens occupés</h1>
+        <section className="w-full p-5">
+          <h1 className="font-primary scroll-mt-24  text-2xl lg:text-3xl md:text-3xl" id="accueil">La nutrition intelligente pour les gens occupés</h1>
           <div className="mt-2 h-50 bg-cover bg-center rounded-xl flex items-end p-5" style={{backgroundImage: `url(${Section1Image})`}}>
             <p className="w-full lg:w-4/5 h-auto object-cover rounded-xl font-bold font-primary text-(--color-secondar) text-2xl lg:text-3xl md:text-3xl shadow-lg shadow-black backdrop-blur-sm p-1">Des repas équilibrés, calculés et prêts chaque jour.Tu travailles. On gère ton alimentation.</p>
           </div>
