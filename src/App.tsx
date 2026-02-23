@@ -88,7 +88,7 @@ function Toggle() {
           </div>
           <div className="text-black font-secondary">
             <ul onClick={()=>(setNavbarHidden(!navbarHidden))} className="p-15 list-disc flex flex-col gap-7 ">
-              <li><a href="#accueil">Accueil</a></li>
+              <li><a href="#">Accueil</a></li>
               <li><a href="#menu">Menu</a></li>
               <li><a href="#abonnement">Abonnement</a></li>
               <li><a href="#contacte">Nous contacter</a></li>
@@ -101,16 +101,16 @@ function Toggle() {
         </div>
       </nav>
 
-      <main className="w-full overflow-x-hidden">
+      <main className="w-full overflow-x-hidden" id="accueil">
 
         <section className="w-full p-5">
-          <h1 className="font-primary scroll-mt-24  text-2xl lg:text-3xl md:text-3xl" id="accueil">La nutrition intelligente pour les gens occupés</h1>
+          <h1 className="font-primary text-2xl lg:text-3xl md:text-3xl" id="accueil">La nutrition intelligente pour les gens occupés</h1>
           <div className="mt-2 h-50 bg-cover bg-center rounded-xl flex items-end p-5" style={{backgroundImage: `url(${Section1Image})`}}>
             <p className="w-full lg:w-4/5 h-auto object-cover rounded-xl font-bold font-primary text-(--color-secondar) text-2xl lg:text-3xl md:text-3xl shadow-lg shadow-black backdrop-blur-sm p-1">Des repas équilibrés, calculés et prêts chaque jour.Tu travailles. On gère ton alimentation.</p>
           </div>
           <div className="flex justify-around items-center mt-4">
-            <button className="bg-(--color-secondar) btn p-1 rounded-lg"><a href="#menu">Voir le menu de la semaine</a></button>
-            <button className="bg-(--color-thirdy) btn p-1 rounded-lg" onClick={abonnement}>S’abonner maintenant</button>
+            <button className="text-black bg-(--color-header) btn p-1 rounded-lg"><a href="#menu">Voir le menu de la semaine</a></button>
+            <button className="text-black bg-(--color-thirdy) btn p-1 rounded-lg" onClick={abonnement}>S’abonner maintenant</button>
           </div>
         </section>
 
@@ -153,7 +153,7 @@ function Toggle() {
           <h3 className="text-2xl lg:text-3xl md:text-3xl text-center mb-15">Tu choisis: <span className="text-lg lg:text-2xl md:text-2xl text-(--color-thirdy)"> Commander par repas ou bien prendre l’abonnement</span></h3>
           <h3 className="text-2xl lg:text-3xl md:text-3xl text-center mb-15">Abonné ? : <span className="text-lg lg:text-2xl md:text-2xl text-(--color-thirdy)"> Tu peux modifier tes choix tant que c’est dans la liste du jour</span></h3>
           <div className="flex justify-center items-center">
-            <button className="bg-(--color-secondar) btn p-5 text-lg lg:text-2xl md:text-2xl rounded-lg font-primary"><a href="#menu">Consulter le Menu</a></button>
+            <button className="text-black bg-(--color-header) btn p-5 text-lg lg:text-2xl md:text-2xl rounded-lg font-primary"><a href="#menu">Consulter le Menu</a></button>
           </div>
         </section>
 
@@ -185,7 +185,7 @@ function Toggle() {
             </ul>
             <p className="text-lg lg:text-2xl md:text-2xl font-bold text-center mt-6 mb-9">Tu ne décides plus quoi manger. <br /> <span className="text-(--color-thirdy)">Tu décides juste de progresser.</span></p>
             <div className="flex justify-center items-center">
-              <button className="bg-(--color-thirdy) btn p-5 text-lg rounded-lg font-primary" onClick={abonnement}>S’abonner maintenant</button>
+              <button className="bg-(--color-thirdy) btn p-5 text-lg rounded-lg font-primary text-black" onClick={abonnement}>S’abonner maintenant</button>
             </div>
           </div>
         </section>
@@ -195,9 +195,9 @@ function Toggle() {
           <DayMealSelector/>
         </section>
 
-        <section className=" flex flex-col justify-center items-center gap-5 mb-20">
-          <button className="btn bg-(--color-thirdy) rounded-lg" onClick={abonnement}>S’abonner maintenant</button>
-          <button className="btn bg-(--color-secondar) rounded-lg" id="contacte" onClick={()=>{alert("Notre service n'est pas disponnible pour le moment")}}>Nous contacter</button>
+        <section className=" flex flex-col justify-center items-center gap-5 mb-20 ">
+          <button className="text-black btn bg-(--color-thirdy) rounded-lg" onClick={abonnement}>S’abonner maintenant</button>
+          <button className="text-black btn bg-(--color-header) rounded-lg" id="contacte" onClick={()=>{alert("Notre service n'est pas disponnible pour le moment")}}>Nous contacter</button>
         </section>
       </main>
 

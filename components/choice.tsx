@@ -47,7 +47,7 @@ function DayMealSelector() {
             className={`p-3 rounded-full font-semibold whitespace-nowrap transition
               ${
                 selectedDay === day
-                  ? "bg-green-500 text-black"
+                  ? "bg-(--color-header) text-black"
                   : "bg-gray-300 text-black"
               }`}
           >
