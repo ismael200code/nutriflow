@@ -106,7 +106,7 @@ function Toggle() {
         <section className="w-full p-5">
           <h1 className="font-primary text-2xl lg:text-3xl md:text-3xl" id="accueil">La nutrition intelligente pour les gens occupés</h1>
           <div className="mt-2 h-50 bg-cover bg-center rounded-xl flex items-end p-5" style={{backgroundImage: `url(${Section1Image})`}}>
-            <p className="w-full lg:w-4/5 h-auto object-cover rounded-xl font-bold font-primary text-(--color-secondar) text-2xl lg:text-3xl md:text-3xl shadow-lg shadow-black backdrop-blur-sm p-1">Des repas équilibrés, calculés et prêts chaque jour.Tu travailles. On gère ton alimentation.</p>
+            <p className="w-full lg:w-4/5 h-auto object-cover rounded-xl font-bold font-primary text-[#0FFF27] text-2xl lg:text-3xl md:text-3xl shadow-lg shadow-black backdrop-blur-sm p-1">Des repas équilibrés, calculés et prêts chaque jour.Tu travailles. On gère ton alimentation.</p>
           </div>
           <div className="flex justify-around items-center mt-4">
             <button className="text-black bg-(--color-header) btn p-1 rounded-lg"><a href="#menu">Voir le menu de la semaine</a></button>
