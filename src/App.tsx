@@ -17,7 +17,7 @@ import DayMealSelector from "../components/choice"
 
 
 
-//RAMADAN26
+
 function App() {
   const [navbarHidden,setNavbarHidden] = useState(true)
   
